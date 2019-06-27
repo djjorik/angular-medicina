@@ -1,0 +1,15 @@
+
+
+<div>
+
+  <p>{{company?.name}}</p>
+
+  <p *ngFor="let contact of company.contacts">
+    {{contact.name}}
+    {{concact.phone}}
+
+    <!-- Здесь можно пайпом название сделать, искать его по айди и выводить описание -->
+    {{contact.type}}
+  </p>
+
+</div>
